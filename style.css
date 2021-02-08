@@ -6,7 +6,18 @@ html, body {
 }
 
 canvas {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     background-color: white;
+}
+
+.zoom {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.zoom button {
+    width: 50px;
+    height: 50px;
 }
